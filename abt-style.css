@@ -1,0 +1,200 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    padding: 0%;
+}
+
+header {
+    width: 100%;
+    background-color:black;
+    padding: 0%;
+}
+
+.logo{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+
+.column{
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+.columnright{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #141414;
+    color: #ffb700;
+}
+
+.element-story{
+    align-content: center;
+    text-align: left;
+    background-color: #FFFFFF;
+    padding: 5% 0% 5% 0%;
+    position: relative;
+    width: auto;
+    height: 250px;
+}
+
+#story-head{
+    font-size: 44px;
+    font-weight: 700;
+    width: 1120px;
+    height: 76px;
+    box-sizing: border-box;
+    font-style: inherit;
+    color: var(--ast-global-color-2);
+    line-height: 1.0;
+    text-align: center;
+}
+
+#story-con{
+    margin-bottom: 26px;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    width: 1120px;
+    left: 140px;
+    position: relative;
+    --widgets-spacing: 20px;
+    color: #404040;
+}
+
+.element-container-ratio{
+    width: auto;
+    text-align: center;
+    height: 84px;
+    margin-left: -37%;
+    position: relative;
+}
+
+#ratio, #year, #team, #clients{
+    margin-bottom: 10px;
+    font-size: 2.125rem;
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: inherit;
+    clear: both;
+}
+
+.description{
+    box-sizing: border-box;
+    color: #404040;
+}
+
+.element-container-year{
+    width: auto;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    top: -85px;
+    height: 84px;
+    margin-left: -25%;
+    position: relative;
+}
+
+.element-container-team{
+    width: auto;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    top: -170px;
+    height: 84px;
+    margin-left: -10%;
+    position: relative;
+}
+
+.element-container-clients{
+    width: auto;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    top: -253px;
+    height: 84px;
+    margin-left: 13%;
+    position: relative;
+}
+
+.element-heading{
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#element-divide-seperator{
+    border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
+    width: 100px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-left: 140px;
+    display: flex;
+    direction: ltr;
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    --divider-border-style: solid;
+    --divider-color: #000;
+    --divider-border-width: 1px;
+    margin-bottom: 60px;
+}
+
+#element-heading-title{
+    box-sizing: border-box;
+    font-weight: 700;
+    margin-bottom: 50px;
+    position: relative;
+    font-style: normal;
+    line-height: 27px;
+    font-size: 70px;
+    margin-left: 140px;
+}
+
+#element-heading-content{
+    box-sizing: border-box;
+    color: #404040;
+    margin-left: 140px;
+}
+
+.element-technology{
+    width: 760px;
+    height: 650px;
+    float: right;
+    margin-top: -80px;
+}
