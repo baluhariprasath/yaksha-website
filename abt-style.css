@@ -156,6 +156,8 @@ li a:hover {
     align-content: center;
     justify-content: center;
     width: 50%;
+    height: 650px;
+    display: grid;
 }
 
 #element-divide-seperator{
@@ -181,9 +183,10 @@ li a:hover {
     margin-bottom: 50px;
     position: relative;
     font-style: normal;
-    line-height: 27px;
+    line-height: 47px;
     font-size: 70px;
     margin-left: 140px;
+    text-transform: uppercase;
 }
 
 #element-heading-content{
@@ -193,8 +196,76 @@ li a:hover {
 }
 
 .element-technology{
-    width: 760px;
-    height: 650px;
+    /*align-content: center;
+    justify-content: center;*/
+    width: 50%;
+    height: auto;
     float: right;
-    margin-top: -80px;
+}
+
+#element-background-image{
+    display: inline-flex;
+    margin-top: -130%;
+    width: 100%;
+    height: 650px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, rgba(189, 189, 189, 0.95) 0%, #010102 100%);
+    background-position: center;
+    background-size: cover;
+    /*opacity: 0.66;*/
+}
+
+#element-main-image{
+    display: grid;
+    width: 400px;
+    height: auto;
+    margin-top: -60%;
+    margin-left: -50px;
+}
+
+.element-mission{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 120px 0px 120px 0px;
+}
+
+#element-widget-heading{
+    margin: 0px 0px 0px 0px;
+    padding: 0% 50% 00% 0%;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 25px;
+    font-style: inherit;
+    text-transform: uppercase;
+    margin-left: 13%;
+    margin-bottom: 60px;
+}
+
+#element-widget-content{
+    box-sizing: border-box;
+    color: #404040;
+    margin-left: 200px;
+    margin-bottom: 60px;
+}
+
+#element-commitment{
+    padding: 0px 40px 0px 0px;
+    color: #404040;
+    /*display: flex;*/
+    position: relative;
+    align-content: flex-start;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 200px;
+}
+
+#element-commit{
+   margin-bottom: 10px;
+   font-weight: 400;
+}
+
+#element-commit-heading{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #404040;
 }
