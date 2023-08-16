@@ -17,7 +17,7 @@ header{
     background-color: transparent;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0; 
     width: 100%;
     padding: 0 34px;
     box-sizing: border-box;
@@ -31,11 +31,14 @@ header{
     position: relative;
     left: 50%;
     text-align: center;
+}
+
+#header #logowrapper #headernav{
     display: block;
     box-sizing: border-box;
 }
 
-.header.inner{
+.header-inner{
     padding: 34px 0;
     width: 100%;
     box-sizing: border-box;
