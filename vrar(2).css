@@ -70,6 +70,7 @@ li a {
     text-align: center;
     padding: 14px 18px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #index-section-image{
@@ -210,7 +211,7 @@ h2{
     font-style: normal;
     line-height: 1.2em;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 #para-mission{
@@ -220,4 +221,115 @@ h2{
     line-height: 1.2em;
     text-align: center;
     color: rgba(02, 02, 03, .4);
+}
+
+#news-content{
+    padding-block-start: 50px;
+    text-align: center;
+    position: relative;
+}
+
+#company-name-news{
+    width: 20%;
+    padding-left: 1%;
+    padding-right: 1%;
+    visibility: visible;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#company-link-image{
+    position: relative;
+    display: block;
+}
+
+#company-image{
+    margin: 0 0px 25px 0;
+    width: 230px;
+    height: auto;
+    position: relative;
+    left: 40px;
+}
+
+a{
+    background: transparent;
+    cursor: pointer;
+}
+
+#company-title{
+    text-align: center;
+}
+
+.more-news-content{
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+
+#more-news-vrar-content{
+    margin-left: -60px;
+    position: relative;
+}
+
+.vrar-global-summit{
+    background-color: rgba(226,227,228,.7);
+    text-align: center;
+}
+
+#head-global-summit{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2em;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+#block-global-content-image{
+    width: 60.33%;
+    margin-left: 20%;
+    padding-bottom: 50px;
+}
+
+#html-global-content-image{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    height: auto;
+    clear: both;
+}
+
+#heading-block-ms{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 1.2em;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.gallery-block-ms{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    height: auto;
+}
+
+.gallery-ms-image{
+    clear: left;
+    /*width: 11.1111%;*/
+    height: auto;
+    cursor: default;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 10px;
 }
