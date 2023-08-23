@@ -318,18 +318,39 @@ strong{
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: 50px;
     position: relative;
     height: auto;
 }
 
 .gallery-ms-image{
     clear: left;
-    /*width: 11.1111%;*/
-    height: auto;
-    cursor: default;
+    /*width: auto;
+    height: auto;*/
+    cursor: pointer;
     margin-bottom: 20px;
     position: relative;
     display: inline-block;
     margin-right: 20px;
-    margin-left: 10px;
+    margin-left: 30px;
+}
+
+.vrar-industry-commitie{
+    background-color: rgba(226,227,228,.7);
+}
+
+#block-industry-commitie{
+    padding: 68px 34px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#html-insdustry-commitie{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    height: auto;
 }
