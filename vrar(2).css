@@ -354,3 +354,54 @@ strong{
     position: relative;
     height: auto;
 }
+
+.block-podcast{
+    padding: 68px 34px;
+    box-sizing: border-box;
+    max-width: 1080px;
+    margin: auto;
+}
+
+#content-podcast{
+    width: 50%;
+    float: left;
+}
+
+#content-vrar-podcast{
+    padding-top: 0;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    outline: none;
+}
+
+#image-vrar-podcast{
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+#block-image-podcast{
+    padding-left: 17px;
+    padding-right: 17px;
+    position: relative;
+    height: auto;
+    padding-bottom: 15%;    
+}
+
+#vrar-webinars{
+    background-color: rgba(226, 227, 228, .7);
+    position: relative;
+}
+
+#column-webinars{
+    padding: 68px 34px;
+    box-sizing: border-box;
+    max-width: 1080px;
+    margin: auto;
+    display: block;
+}
